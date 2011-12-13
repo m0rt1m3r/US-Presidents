@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3FF8E51493E7D800F51B14 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FF8E41493E7D800F51B14 /* icon@2x.png */; };
+		2D3FF8E81493E82500F51B14 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FF8E71493E82500F51B14 /* icon.png */; };
+		2D42AF7C149291C800B73A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42AF7B149291C800B73A8C /* UIKit.framework */; };
+		2D42AF7E149291C800B73A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42AF7D149291C800B73A8C /* Foundation.framework */; };
+		2D42AF80149291C800B73A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42AF7F149291C800B73A8C /* CoreGraphics.framework */; };
+		2D42AF86149291C800B73A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D42AF84149291C800B73A8C /* InfoPlist.strings */; };
+		2D42AF88149291C800B73A8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42AF87149291C800B73A8C /* main.m */; };
+		2D42AF8C149291C800B73A8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42AF8B149291C800B73A8C /* AppDelegate.m */; };
+		2D42AF941492943A00B73A8C /* TVCPresidents.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42AF931492943A00B73A8C /* TVCPresidents.m */; };
+		2D42AF971492B53400B73A8C /* NSString+ParsingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42AF961492B53400B73A8C /* NSString+ParsingExtensions.m */; };
+		2D42AF9A1492B71300B73A8C /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42AF991492B71300B73A8C /* President.m */; };
+		2DEA11AE1492CA7C002CC2AD /* USPresidents.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA11AD1492CA7C002CC2AD /* USPresidents.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D3FF8E41493E7D800F51B14 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		2D3FF8E71493E82500F51B14 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2D42AF77149291C800B73A8C /* US Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US Presidents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D42AF7B149291C800B73A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D42AF7D149291C800B73A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D42AF7F149291C800B73A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D42AF83149291C800B73A8C /* US Presidents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "US Presidents-Info.plist"; sourceTree = "<group>"; };
+		2D42AF85149291C800B73A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D42AF87149291C800B73A8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D42AF89149291C800B73A8C /* US Presidents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "US Presidents-Prefix.pch"; sourceTree = "<group>"; };
+		2D42AF8A149291C800B73A8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D42AF8B149291C800B73A8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D42AF921492943A00B73A8C /* TVCPresidents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCPresidents.h; sourceTree = "<group>"; };
+		2D42AF931492943A00B73A8C /* TVCPresidents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCPresidents.m; sourceTree = "<group>"; };
+		2D42AF951492B53400B73A8C /* NSString+ParsingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ParsingExtensions.h"; sourceTree = "<group>"; };
+		2D42AF961492B53400B73A8C /* NSString+ParsingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ParsingExtensions.m"; sourceTree = "<group>"; };
+		2D42AF981492B71300B73A8C /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		2D42AF991492B71300B73A8C /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		2DEA11AD1492CA7C002CC2AD /* USPresidents.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = USPresidents.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D42AF74149291C800B73A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D42AF7C149291C800B73A8C /* UIKit.framework in Frameworks */,
+				2D42AF7E149291C800B73A8C /* Foundation.framework in Frameworks */,
+				2D42AF80149291C800B73A8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D42AF6C149291C800B73A8C = {
+			isa = PBXGroup;
+			children = (
+				2D3FF8E71493E82500F51B14 /* icon.png */,
+				2D3FF8E41493E7D800F51B14 /* icon@2x.png */,
+				2DEA11AD1492CA7C002CC2AD /* USPresidents.csv */,
+				2D42AF81149291C800B73A8C /* US Presidents */,
+				2D42AF7A149291C800B73A8C /* Frameworks */,
+				2D42AF78149291C800B73A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D42AF78149291C800B73A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D42AF77149291C800B73A8C /* US Presidents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D42AF7A149291C800B73A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D42AF7B149291C800B73A8C /* UIKit.framework */,
+				2D42AF7D149291C800B73A8C /* Foundation.framework */,
+				2D42AF7F149291C800B73A8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D42AF81149291C800B73A8C /* US Presidents */ = {
+			isa = PBXGroup;
+			children = (
+				2D42AF8A149291C800B73A8C /* AppDelegate.h */,
+				2D42AF8B149291C800B73A8C /* AppDelegate.m */,
+				2D42AF951492B53400B73A8C /* NSString+ParsingExtensions.h */,
+				2D42AF961492B53400B73A8C /* NSString+ParsingExtensions.m */,
+				2D42AF981492B71300B73A8C /* President.h */,
+				2D42AF991492B71300B73A8C /* President.m */,
+				2D42AF921492943A00B73A8C /* TVCPresidents.h */,
+				2D42AF931492943A00B73A8C /* TVCPresidents.m */,
+				2D42AF82149291C800B73A8C /* Supporting Files */,
+			);
+			path = "US Presidents";
+			sourceTree = "<group>";
+		};
+		2D42AF82149291C800B73A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D42AF83149291C800B73A8C /* US Presidents-Info.plist */,
+				2D42AF84149291C800B73A8C /* InfoPlist.strings */,
+				2D42AF87149291C800B73A8C /* main.m */,
+				2D42AF89149291C800B73A8C /* US Presidents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D42AF76149291C800B73A8C /* US Presidents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D42AF8F149291C800B73A8C /* Build configuration list for PBXNativeTarget "US Presidents" */;
+			buildPhases = (
+				2D42AF73149291C800B73A8C /* Sources */,
+				2D42AF74149291C800B73A8C /* Frameworks */,
+				2D42AF75149291C800B73A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "US Presidents";
+			productName = "US Presidents";
+			productReference = 2D42AF77149291C800B73A8C /* US Presidents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D42AF6E149291C800B73A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2D42AF71149291C800B73A8C /* Build configuration list for PBXProject "US Presidents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D42AF6C149291C800B73A8C;
+			productRefGroup = 2D42AF78149291C800B73A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D42AF76149291C800B73A8C /* US Presidents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D42AF75149291C800B73A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D42AF86149291C800B73A8C /* InfoPlist.strings in Resources */,
+				2DEA11AE1492CA7C002CC2AD /* USPresidents.csv in Resources */,
+				2D3FF8E51493E7D800F51B14 /* icon@2x.png in Resources */,
+				2D3FF8E81493E82500F51B14 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D42AF73149291C800B73A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D42AF88149291C800B73A8C /* main.m in Sources */,
+				2D42AF8C149291C800B73A8C /* AppDelegate.m in Sources */,
+				2D42AF941492943A00B73A8C /* TVCPresidents.m in Sources */,
+				2D42AF971492B53400B73A8C /* NSString+ParsingExtensions.m in Sources */,
+				2D42AF9A1492B71300B73A8C /* President.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D42AF84149291C800B73A8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D42AF85149291C800B73A8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D42AF8D149291C800B73A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D42AF8E149291C800B73A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D42AF90149291C800B73A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "US Presidents/US Presidents-Prefix.pch";
+				INFOPLIST_FILE = "US Presidents/US Presidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D42AF91149291C800B73A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "US Presidents/US Presidents-Prefix.pch";
+				INFOPLIST_FILE = "US Presidents/US Presidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D42AF71149291C800B73A8C /* Build configuration list for PBXProject "US Presidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D42AF8D149291C800B73A8C /* Debug */,
+				2D42AF8E149291C800B73A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D42AF8F149291C800B73A8C /* Build configuration list for PBXNativeTarget "US Presidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D42AF90149291C800B73A8C /* Debug */,
+				2D42AF91149291C800B73A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D42AF6E149291C800B73A8C /* Project object */;
+}
